@@ -1,0 +1,11 @@
+.place {
+  max-width: 984px;
+  margin: auto;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); */
+  /* grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); */
+  /* grid-gap: 48px 40px; */
+  grid-template-columns: repeat(2, fit-content(50%));
+  grid-gap: 48px 40px;
+}
+

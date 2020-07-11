@@ -1,6 +1,8 @@
 .header {
+  color: red;
   display: flex;
-  justify-content: space-between;
+
   align-items: flex-end;
   padding: 28px 48px 56px;
+  justify-content: space-between;
 }
