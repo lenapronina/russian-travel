@@ -1,5 +1,5 @@
 .footer__link {
-  font-weight: 400;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.12px;
   color: #FFFFFF;
@@ -11,7 +11,7 @@
   opacity: 0.8;
 }
 
-@media (max-width: 660px) {
+@media (max-width:767px) {
   .footer__link {
     font-size: 24px;
     line-height: 1;

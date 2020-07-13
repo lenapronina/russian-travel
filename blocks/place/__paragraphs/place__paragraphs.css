@@ -4,13 +4,7 @@
 }
 
 
-@media (max-width: 425px) {
-  .place__paragraphs {
-    margin-left: 20px;
-  }
-}
-
-@media (max-width: 340px) {
+@media (max-width: 767px) {
   .place__paragraphs {
     margin-left: 16px;
   }

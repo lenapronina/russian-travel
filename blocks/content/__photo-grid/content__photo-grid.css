@@ -2,13 +2,13 @@
   margin-bottom: 98px;
 }
 
-@media (max-width: 768px) {
+@media (max-width:1023px) {
   .content__photo-grid {
     margin-bottom: 92px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width:767px) {
   .content__photo-grid {
     margin-bottom: 67px;
   }

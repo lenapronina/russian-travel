@@ -2,37 +2,27 @@
   margin: 0 auto;
   width: 100%;
   max-width: 1184px;
-  min-height: 740px;
+  padding-bottom: 38.5%;
   background-color: hsla(216, 6%, 17%, 0.3);
   background-image: url(../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   transition: background-color 0.3s linear;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .cover:hover {
   background-color: hsla(216, 6%, 17%, 0.8);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .cover {
-    min-height: 640px;
+    padding-bottom: 31%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .cover {
-    min-height: 480px;
-  }
-}
-
-@media (max-width: 425px) {
-  .cover {
-    min-height: 200px;
+    padding-bottom: 19%;
   }
 }
