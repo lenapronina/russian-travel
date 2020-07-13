@@ -2,7 +2,7 @@
   margin: 97px auto 93px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .content__intro {
     margin: 93px auto 89px;
   }

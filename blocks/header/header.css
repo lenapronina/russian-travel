@@ -1,7 +1,7 @@
 .header {
+  margin: 0 auto;
   width: calc(100% - 96px);
   max-width: 1184px;
-  margin: 0 auto;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -13,7 +13,17 @@
   }
 }
 
+<<<<<<< HEAD
 @media (max-width:425px) {
+=======
+@media (max-width: 425px) {
+  .header {
+    width: calc(100% - 40px);
+  }
+}
+
+@media (max-width: 340px) {
+>>>>>>> media/dev
   .header {
     width: calc(100% - 32px);
   }

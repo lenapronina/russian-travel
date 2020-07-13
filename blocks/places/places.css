@@ -1,21 +1,20 @@
 .places {
-  display: grid;
   margin: auto;
   width: calc(100% - 296px);
   max-width: 984px;
-  justify-items: center;
+  display: grid;
   grid-template-columns: 1fr;
   grid-row-gap: 86px;
 }
 
-@media (max-width:1279px) {
+@media (max-width: 1279px) {
   .places {
     width: calc(100% - 96px);
     grid-row-gap: 87px;
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .places {
     width: calc(100% - 48px);
     grid-row-gap: 70px;
@@ -25,7 +24,7 @@
 @media (max-width: 425px) {
   .places {
     width: 100%;
-    grid-row-gap: 67px;
+    grid-row-gap: 54px;
   }
 }
 

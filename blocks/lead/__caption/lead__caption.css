@@ -8,13 +8,22 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
 @media (max-width: 425px) {
+<<<<<<< HEAD
+=======
+  .lead__caption {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 340px) {
+>>>>>>> media/dev
   .lead__caption {
     margin-left: 16px;
   }

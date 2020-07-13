@@ -9,13 +9,22 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .content__intro {
     width: calc(100% - 48px);
   }
 }
 
 @media (max-width: 425px) {
+<<<<<<< HEAD
+=======
+  .content__intro {
+    width: calc(100% - 40px);
+  }
+}
+
+@media (max-width: 340px) {
+>>>>>>> media/dev
   .content__intro {
     width: calc(100% - 32px);
   }
