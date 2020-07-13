@@ -8,20 +8,20 @@
 }
 
 @media (max-width: 1279px) {
-  .photo-grid{
+  .photo-grid {
     grid-gap: 14px;
   }
 }
 
-@media (max-width: 1023px) {
-  .photo-grid{
+@media (max-width: 768px) {
+  .photo-grid {
     width: calc(100% - 48px);
     grid-gap: 16px;
   }
 }
 
-@media (max-width: 767px) {
-  .photo-grid{
+@media (max-width: 425px) {
+  .photo-grid {
     width: calc(100% - 32px);
     grid-gap: 12px;
   }
