@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
   .cover__title {
     max-width: 255px;
     margin: 0 0 17px;

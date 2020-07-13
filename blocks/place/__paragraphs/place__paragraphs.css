@@ -4,7 +4,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
   .place__paragraphs {
     margin-left: 16px;
   }
