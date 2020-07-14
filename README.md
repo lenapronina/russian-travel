@@ -15,3 +15,9 @@
 **Используемые технологии**
 
 HTML · CSS · Flexbox · Grid-layout · BEM · Nested BEM · Git · GitHubPages
+
+**Ссылка на GitHubPages**
+
+Путешествие по России![GitHub](https://lenapronina.github.io/russian-travel/index.html)
+
+
