@@ -1,8 +1,8 @@
 .places {
-  display: grid;
   margin: auto;
   width: calc(100% - 296px);
   max-width: 984px;
+  display: grid;
   justify-items: center;
   grid-template-columns: 1fr;
   grid-row-gap: 86px;
@@ -15,17 +15,23 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .places {
     width: calc(100% - 48px);
     grid-row-gap: 70px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 550px) {
   .places {
     width: 100%;
-    grid-row-gap: 67px;
+    justify-items: start;
+  }
+}
+
+@media (max-width: 340px) {
+  .places {
+    grid-row-gap: 54px;
   }
 }
 

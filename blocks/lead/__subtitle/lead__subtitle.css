@@ -2,7 +2,7 @@
   margin: 0 0 64px;
   max-width: 640px;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -12,9 +12,17 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 660px) {
   .lead__subtitle {
     margin: 0 0 40px;
+    width: 370px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__subtitle {
+    width: 288px;
     font-size: 16px;
     line-height: 1.25;
   }

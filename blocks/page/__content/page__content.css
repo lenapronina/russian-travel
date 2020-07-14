@@ -2,7 +2,7 @@
   margin-bottom: 92px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .page__content {
     margin-bottom: 89px;
   }
@@ -11,5 +11,11 @@
 @media (max-width: 767px) {
   .page__content {
     margin-bottom: 77px;
+  }
+}
+
+@media (max-width: 340px) {
+  .page__content {
+    margin-bottom: 67px;
   }
 }
