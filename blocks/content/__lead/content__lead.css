@@ -1,0 +1,15 @@
+.content__lead {
+  margin-top: 65px;
+}
+
+@media (max-width: 1279px) {
+  .content__lead {
+    margin-top: 57px;
+  }
+}
+
+@media (max-width: 550px) {
+  .content__lead {
+    margin-top: 51px;
+  }
+}
