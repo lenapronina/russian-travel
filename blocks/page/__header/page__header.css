@@ -2,7 +2,7 @@
   padding-top: 28px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .page__header {
     padding-top: 16px;
   }

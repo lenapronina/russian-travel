@@ -15,16 +15,13 @@
   }
 }
 
-@media (max-width: 425px) {
-<<<<<<< HEAD
-=======
+@media (max-width: 660px) {
   .content__intro {
     width: calc(100% - 40px);
   }
 }
 
 @media (max-width: 340px) {
->>>>>>> media/dev
   .content__intro {
     width: calc(100% - 32px);
   }

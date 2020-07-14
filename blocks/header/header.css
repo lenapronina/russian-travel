@@ -7,23 +7,19 @@
   justify-content: space-between;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .header {
     width: calc(100% - 48px);
   }
 }
 
-<<<<<<< HEAD
-@media (max-width:425px) {
-=======
-@media (max-width: 425px) {
+@media (max-width: 660px) {
   .header {
     width: calc(100% - 40px);
   }
 }
 
 @media (max-width: 340px) {
->>>>>>> media/dev
   .header {
     width: calc(100% - 32px);
   }

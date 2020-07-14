@@ -6,17 +6,9 @@
   line-height: 1.625;
 }
 
-<<<<<<< HEAD
-=======
-@media (max-width: 768px) {
-  .intro__text {
-    max-width: 720px;
-  }
-}
-
->>>>>>> media/dev
-@media (max-width: 425px) {
+@media (max-width: 660px) {
   .intro__text {
     margin: 0 0 34px;
+    max-width: 400px;
   }
 }

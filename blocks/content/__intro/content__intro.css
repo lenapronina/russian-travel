@@ -2,13 +2,13 @@
   margin: 97px auto 93px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .content__intro {
     margin: 93px auto 89px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
   .content__intro {
     margin: 68px auto 65px;
   }

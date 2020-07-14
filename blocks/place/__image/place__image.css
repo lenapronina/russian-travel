@@ -17,18 +17,20 @@
   }
 }
 
-<<<<<<< HEAD
-@media (max-width: 425px) {
-=======
-@media (max-width: 665px) {
->>>>>>> media/dev
+@media (max-width: 660px) {
   .place__image {
-    max-width: 280px;
+    max-width: 300px;
   }
 }
 
 @media (max-width: 550px) {
   .place__image {
-    max-width: 460px;
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 340px) {
+  .place__image {
+    max-width: 340px;
   }
 }

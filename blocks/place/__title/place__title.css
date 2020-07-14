@@ -7,7 +7,7 @@
   line-height: 1.06;
 }
 
-@media (max-width: 1279px) {
+@media (max-width:1279px) {
   .place__title {
     max-width: 440px;
   }
@@ -21,18 +21,10 @@
   }
 }
 
-<<<<<<< HEAD
-=======
-@media (max-width: 665px) {
-  .place__title {
-    max-width: 280px;
-  }
-}
-
->>>>>>> media/dev
-@media (max-width: 425px) {
+@media (max-width: 550px) {
   .place__title {
     margin-left: 20px;
+    max-width: 288px;
     font-size: 32px;
     line-height: 1.09;
   }

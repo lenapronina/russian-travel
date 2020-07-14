@@ -13,4 +13,5 @@
 * Публикация проекта на GitHubPages
 
 **Используемые технологии**
+
 HTML · CSS · Flexbox · Grid-layout · BEM · Nested BEM · Git · GitHubPages

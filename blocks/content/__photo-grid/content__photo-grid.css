@@ -4,15 +4,11 @@
 
 @media (max-width: 768px) {
   .content__photo-grid {
-    margin-bottom: 92px;
+    margin-bottom: 91px;
   }
 }
 
-<<<<<<< HEAD
-@media (max-width:425px) {
-=======
-@media (max-width: 425px) {
->>>>>>> media/dev
+@media (max-width: 550px) {
   .content__photo-grid {
     margin-bottom: 67px;
   }

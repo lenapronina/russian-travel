@@ -13,24 +13,15 @@
   }
 }
 
-<<<<<<< HEAD
-@media (max-width:425px) {
-=======
-@media (max-width: 660px) {
->>>>>>> media/dev
+@media (max-width:660px) {
   .footer {
+    width: calc(100% - 40px);
     flex-direction: column;
     align-items: flex-start;
   }
 }
 
-@media (max-width: 425px) {
-  .footer {
-    width: calc(100% - 40px);
-  }
-}
-
-@media (max-width: 340px) {
+@media (max-width:340px) {
   .footer {
     width: calc(100% - 32px);
   }

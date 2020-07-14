@@ -7,21 +7,24 @@
   text-align: center;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .cover__title {
     margin: 0 0 27px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 660px) {
   .cover__title {
+    max-width: 350px;
+    margin: 0 0 20px;
     font-size: 45px;
+    line-height: 1.07;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 340px) {
   .cover__title {
-    margin: 0 0 17px;
+    margin: 0 0 16px;
     max-width: 255px;
     font-size: 32px;
     line-height: 1.09;

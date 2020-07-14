@@ -3,16 +3,16 @@
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: hsla(216, 6%, 17%, 0.3);
   background-image: url(../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   transition: background-color 0.3s linear;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .cover:hover {
@@ -31,7 +31,13 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 660px) {
+  .cover {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 340px) {
   .cover {
     min-height: 200px;
   }

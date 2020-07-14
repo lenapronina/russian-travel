@@ -9,16 +9,16 @@
 
 @media (max-width: 425px) {
   .lead__title {
-    margin: 0 0 13px;
-    max-width: 500px;
-    font-size: 45px;
-    line-height: 1.25;
+    width: 400px;
+    font-size: 60px;
+    line-height: 1.07;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
   .lead__title {
     margin: 0 0 13px;
+    width: 280px;
     font-size: 40px;
     line-height: 1.1;
   }

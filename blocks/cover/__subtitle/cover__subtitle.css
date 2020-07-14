@@ -7,10 +7,16 @@
   text-align: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 660px) {
   .cover__subtitle {
     max-width: 270px;
     font-size: 14px;
     line-height: 1.14;
+  }
+}
+
+@media (max-width: 340px) {
+  .cover__subtitle {
+    max-width: 275px;
   }
 }

@@ -3,18 +3,16 @@
  flex-direction: column;
 }
 
-
-@media (max-width: 425px) {
-<<<<<<< HEAD
-=======
+@media (max-width: 550px) {
   .place__paragraphs {
     margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
 @media (max-width: 340px) {
->>>>>>> media/dev
   .place__paragraphs {
     margin-left: 16px;
+    margin-right: 0px;
   }
 }
